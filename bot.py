@@ -21,9 +21,9 @@ from pyrogram import Client, filters
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', '4b17f6a264b2bbe471bf6b71ae3cd28dfc36ae90')
+API_KEY = environ.get('API_KEY', '11425ee8d4f834256b5a66c1fbbc498caff71ad9')
 
-bot = Client('URLSHORTX',
+bot = Client('sharedisk.in',
              api_id=API_ID,
              api_hash=API_HASH,
              bot_token=BOT_TOKEN,
@@ -65,7 +65,7 @@ async def link_handler(bot, message):
 
 
 async def get_shortlink(link):
-    url = 'https://urlshortx.com/api'
+    url = 'https://sharedisk.in/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
