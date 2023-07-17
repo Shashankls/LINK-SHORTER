@@ -1,6 +1,6 @@
 {
-    "name": "URLSHORTX Bot",
-    "description": "Make short link by using URLSHORTX API key",
+    "name": "sharedisk Bot",
+    "description": "Make short link by using sharedisk API key",
     "keywords": [
         "telegram",
         "Droplink"
