@@ -5,8 +5,8 @@
         "telegram",
         "sharedisk"
     ],
-    "website": "https://github.com/Devansh20055/LINK-SHORTER",
-    "repository": "https://github.com/Devansh20055/LINK-SHORTER",
+    "website": "https://github.com/Shashankls/LINK-SHORTER",
+    "repository": "https://github.com/Shashankls/LINK-SHORTER",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token",
