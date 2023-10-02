@@ -22,7 +22,7 @@
         },
         "API_KEY": {
             "description": "Get API key fromhttps://sharedisk.in/member/tools/api",
-            "required": false
+             "value": "8b283f2943729318995738b5963f0bcc"
         }
     },
     "addons": [],
