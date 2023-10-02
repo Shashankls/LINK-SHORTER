@@ -21,7 +21,7 @@ from pyrogram import Client, filters
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', 'c8ce5ce72bbc4eeea88fa44ce14e06f6e53646b1')
+API_KEY = environ.get('API_KEY')
 
 bot = Client('sharedisk.in',
              api_id=API_ID,
